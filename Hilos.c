@@ -45,8 +45,10 @@ printf("main <num de loops> <num de hilos>\n");
   printf("\nSe van a usar %d hilos\n", hilos);
 
   for (i; i < hilos; i++){
+        char *num = malloc(10);
+        snprintf(num, 10, "%d", i);
         pthread_t i;
-        pthread_create(&i, NULL, mythread, "i");
+        pthread_create(&i, NULL, mythread, num);
         pthread_join(i, NULL);
   }
 
