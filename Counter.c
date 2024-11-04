@@ -6,7 +6,7 @@
  *
  * Adaptado primero por: John Sanabria - john.sanabria@correounivalle.edu.co
  * Adaptado segundo por: David Guerrero - david.santiago.guerrero@correounivalle.edu.co
- * Fecha: 2023-05-17
+ * Fecha: 2024-11-03
  */
 
 #include <stdio.h>
